@@ -1,6 +1,7 @@
 require 'ripper'
 require 'pp'
-require './event'
+
+require_relative './event'
 
 @event_map = {}
 
